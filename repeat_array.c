@@ -13,7 +13,7 @@ void repeat(int arr[], int size)
 int main()
 {
   int arr[6],i;
-    printF("\n Enter the elements for array:")
+    printf("\n Enter the elements for array:")
     for(i=0;i<6;i++)
        scanf("%d",&arr[i]);
   int arr_size = sizeof(arr)/sizeof(arr[0]);  
